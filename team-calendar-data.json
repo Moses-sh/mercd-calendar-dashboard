@@ -1,12 +1,12 @@
 {
   "summary": {
-    "Jerry": {
+    "Parco": {
       "total": 56,
       "meetings": 42,
       "al": 0,
       "sl": 0
     },
-    "Parco": {
+    "Cat": {
       "total": 4,
       "meetings": 3,
       "al": 0,
@@ -30,19 +30,19 @@
       "al": 0,
       "sl": 0
     },
-    "Cat": {
+    "Piper": {
       "total": 6,
       "meetings": 4,
       "al": 0,
       "sl": 0
     },
-    "Pipi": {
+    "Candy": {
       "total": 34,
       "meetings": 25,
       "al": 0,
       "sl": 0
     },
-    "Candy": {
+    "Suezette": {
       "total": 3,
       "meetings": 3,
       "al": 0,
@@ -50,7 +50,7 @@
     }
   },
   "team_data": {
-    "Jerry": [
+    "Parco": [
       {
         "dtstart": "20260116T063000Z",
         "dtend": "20260116T083000Z",
@@ -612,7 +612,7 @@
         "time": "06:00"
       }
     ],
-    "Parco": [
+    "Cat": [
       {
         "dtstart": "20260306T063000Z",
         "dtend": "20260306T083000Z",
@@ -1600,7 +1600,7 @@
         "time": "06:00"
       }
     ],
-    "Cat": [
+    "Piper": [
       {
         "dtstart": "20260130T070000Z",
         "dtend": "20260130T120000Z",
@@ -1662,7 +1662,7 @@
         "time": "05:30"
       }
     ],
-    "Pipi": [
+    "Candy": [
       {
         "dtstart": "20260226T023000Z",
         "dtend": "20260226T033000Z",
@@ -2004,7 +2004,7 @@
         "time": "03:00"
       }
     ],
-    "Candy": [
+    "Suezette": [
       {
         "dtstart": "20260304T063000Z",
         "dtend": "20260304T083000Z",
