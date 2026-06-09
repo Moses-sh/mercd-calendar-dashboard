@@ -1,0 +1,2041 @@
+{
+  "summary": {
+    "Jerry": {
+      "total": 56,
+      "meetings": 42,
+      "al": 0,
+      "sl": 0
+    },
+    "Parco": {
+      "total": 4,
+      "meetings": 3,
+      "al": 0,
+      "sl": 0
+    },
+    "Simon": {
+      "total": 11,
+      "meetings": 9,
+      "al": 0,
+      "sl": 0
+    },
+    "Pat": {
+      "total": 20,
+      "meetings": 20,
+      "al": 0,
+      "sl": 0
+    },
+    "Fiona": {
+      "total": 63,
+      "meetings": 54,
+      "al": 0,
+      "sl": 0
+    },
+    "Cat": {
+      "total": 6,
+      "meetings": 4,
+      "al": 0,
+      "sl": 0
+    },
+    "Pipi": {
+      "total": 34,
+      "meetings": 25,
+      "al": 0,
+      "sl": 0
+    },
+    "Candy": {
+      "total": 3,
+      "meetings": 3,
+      "al": 0,
+      "sl": 0
+    }
+  },
+  "team_data": {
+    "Jerry": [
+      {
+        "dtstart": "20260116T063000Z",
+        "dtend": "20260116T083000Z",
+        "summary": "(Jerry) Meeting with teama",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/16",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260130T070000Z",
+        "dtend": "20260130T120000Z",
+        "summary": "(cat & Jerry & Fiona) -HKTDC expo",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/30",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260205T063000Z",
+        "dtend": "20260205T083000Z",
+        "summary": "(Fiona & Jerry) Meeting with TAKAD at Ngau Tau Kok",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/05",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260107T083000Z",
+        "dtend": "20260107T100000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) Meeting with MUJI at TKO office",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/07",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260202T100000Z",
+        "dtend": "20260202T110000Z",
+        "summary": "(Fiona & Jerry & Simon Chan) Dinner with H6588001 輝煌",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/02/02",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260211T070000Z",
+        "dtend": "20260211T090000Z",
+        "summary": "(Jerry) Meeting with Hearts Optical",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/11",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260130T010000Z",
+        "dtend": "20260130T030000Z",
+        "summary": "(Jerry) 清湯仔 LIVE SHOW",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/30",
+        "time": "01:00"
+      },
+      {
+        "dtstart": "20260209T010000Z",
+        "dtend": "20260209T030000Z",
+        "summary": "(Jerry) 魚陣型 LIVE SHOW",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/02/09",
+        "time": "01:00"
+      },
+      {
+        "dtstart": "20260804T080000Z",
+        "dtend": "20260804T093000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) - Meeting with MUJI",
+        "location": "尖沙咀\\, 香港尖沙咀",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/08/04",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260128T120000Z",
+        "dtend": "20260128T140000Z",
+        "summary": "(Fiona\\, Jerry\\, Alvis) - Muji Live Show",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/28",
+        "time": "12:00"
+      },
+      {
+        "dtstart": "20260313T063000Z",
+        "dtend": "20260313T083000Z",
+        "summary": "(Jerry) Meeting with B0701",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/13",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260113T063000Z",
+        "dtend": "20260113T083000Z",
+        "summary": "(Fiona & Jerry) Meeting with Nesture at TW",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/13",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260127T100000Z",
+        "dtend": "20260127T120000Z",
+        "summary": "(Jerry) 清漉 LIVE SHOW",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/27",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260109T080000Z",
+        "dtend": "20260109T093000Z",
+        "summary": "(Jerry) Meeting with Hearts Optical",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/09",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260113T023000Z",
+        "dtend": "20260113T043000Z",
+        "summary": "(Fiona & Jerry) Meeting with Freya",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/13",
+        "time": "02:30"
+      },
+      {
+        "dtstart": "20260203T063000Z",
+        "dtend": "20260203T083000Z",
+        "summary": "(Jerry) Meeting with MAESEA",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/03",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260114T060000Z",
+        "dtend": "20260114T080000Z",
+        "summary": "(Fiona & Jerry & Howard & Zita) Meeting with PURE & HEALTHY B0231",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/14",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260126T190000Z",
+        "dtend": "20260126T213000Z",
+        "summary": "(Jerry+Jack+Roy) 文化村 LIVE SHOW",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/26",
+        "time": "19:00"
+      },
+      {
+        "dtstart": "20260123T070000Z",
+        "dtend": "20260123T090000Z",
+        "summary": "(Fiona & Jerry) Meeting with OSCAR",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/23",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260310T023000Z",
+        "dtend": "20260310T043000Z",
+        "summary": "(Fiona & Jerry & Ayu & Ted & Vaniss) Meeting with Swashes & World s",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/10",
+        "time": "02:30"
+      },
+      {
+        "dtstart": "20260102T063000Z",
+        "dtend": "20260102T083000Z",
+        "summary": "(Jerry) Meeting with KIZUNA",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/02",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260105T020000Z",
+        "dtend": "20260105T023000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) MUJI pre meeting",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/05",
+        "time": "02:00"
+      },
+      {
+        "dtstart": "20260305T063000Z",
+        "dtend": "20260305T093000Z",
+        "summary": "(Fiona & Jerry) Meeting with Timberland",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/05",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260112T030000Z",
+        "dtend": "20260112T040000Z",
+        "summary": "(Jerry) Meeting with L’Occitane",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/12",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260129T023000Z",
+        "dtend": "20260129T063000Z",
+        "summary": "(Alvis\\, Jerry\\, Gary) meeting and lunch with 四海魚旦 & 魚陣營",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/29",
+        "time": "02:30"
+      },
+      {
+        "dtstart": "20260212T040000Z",
+        "dtend": "20260212T080000Z",
+        "summary": "(Fiona & Jerry) Lunch and Meeting in TKO with H7701",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/12",
+        "time": "04:00"
+      },
+      {
+        "dtstart": "20260205T023000Z",
+        "dtend": "20260205T043000Z",
+        "summary": "(Fiona & Jerry) Meeting with HOCK",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/05",
+        "time": "02:30"
+      },
+      {
+        "dtstart": "20260311T060000Z",
+        "dtend": "20260311T080000Z",
+        "summary": "(Fiona & Jerry) Meeting with Shiny Living",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/11",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260108T064500Z",
+        "dtend": "20260108T084500Z",
+        "summary": "(Jerry) Meeting with 白燕 at TW",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/08",
+        "time": "06:45"
+      },
+      {
+        "dtstart": "20260130T030000Z",
+        "dtend": "20260130T050000Z",
+        "summary": "(Jerry & Fiona) 爾雅家宴 LIVE SHOW",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/30",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260129T060000Z",
+        "dtend": "20260129T080000Z",
+        "summary": "(Jerry) DAH LIVE SHOW on Pet Fair",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/29",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260310T063000Z",
+        "dtend": "20260310T083000Z",
+        "summary": "(Fiona\\, Jerry\\, Cat) Meeting with Lifeclub",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/10",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260206T030000Z",
+        "dtend": "20260206T070000Z",
+        "summary": "(Jerry) Lunch and office Meeting with CST",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/06",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260112T070000Z",
+        "dtend": "20260112T090000Z",
+        "summary": "(Fiona & Jerry & Simon Chan &tinyiu) Meeting with S2818001 IPPIN/H5",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/12",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260505T020000Z",
+        "dtend": "20260505T050000Z",
+        "summary": "(Fiona & Jerry) 挑戰者 Live show",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/05/05",
+        "time": "02:00"
+      },
+      {
+        "dtstart": "20260520T080000Z",
+        "dtend": "20260520T100000Z",
+        "summary": "(Fiona & Jerry) Meeting with Manson at festival walk",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/20",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260430T060000Z",
+        "dtend": "20260430T080000Z",
+        "summary": "(Jerry) Lunch meeting with 清漉",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/30",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260529T100000Z",
+        "dtend": "20260529T120000Z",
+        "summary": "(Fiona & Jerry) Dinner meeting with Swashes",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/29",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260424T080000Z",
+        "dtend": "20260424T100000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry) Meeting with 輝煌",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/24",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260605T060000Z",
+        "dtend": "20260605T090000Z",
+        "summary": "(Fiona & Jerry) meeting with B1100001",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/05",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260522T050000Z",
+        "dtend": "20260522T080000Z",
+        "summary": "(Fiona & Jerry) Lunch meeting with On kee",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/22",
+        "time": "05:00"
+      },
+      {
+        "dtstart": "20260428T070000Z",
+        "dtend": "20260428T090000Z",
+        "summary": "(Jerry) Meeting with HAIRUN FOOD",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/28",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260324T063000Z",
+        "dtend": "20260324T083000Z",
+        "summary": "(Jerry) Meeting with 白花油",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/24",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260415T100000Z",
+        "dtend": "20260415T113000Z",
+        "summary": "(Pipi & fiona & Jerry) meeting with foodianna 米之廚 at kwai fong",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/15",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260422T063000Z",
+        "dtend": "20260422T083000Z",
+        "summary": "(Jerry) Meeting with TTPS",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/22",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260320T063000Z",
+        "dtend": "20260320T083000Z",
+        "summary": "(Jerry & Joshua) Meeting with yipc food",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/20",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260401T063000Z",
+        "dtend": "20260401T083000Z",
+        "summary": "(Fiona & Jerry) Meeting with Glorious",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/01",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260428T120000Z",
+        "dtend": "20260428T150000Z",
+        "summary": "(Jerry) LIVE SHOW (名冠環球)",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/28",
+        "time": "12:00"
+      },
+      {
+        "dtstart": "20260325T070000Z",
+        "dtend": "20260325T090000Z",
+        "summary": "(Fiona\\, Jerry\\, Ayu\\, Kylie) Meeting with Logitech",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/25",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260430T110000Z",
+        "dtend": "20260430T140000Z",
+        "summary": "(Jerry) LIVE SHOW with Luna",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/30",
+        "time": "11:00"
+      },
+      {
+        "dtstart": "20260519T073000Z",
+        "dtend": "20260519T093000Z",
+        "summary": "(Jerry) Meeting with Yuzu bear at TKO office",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/19",
+        "time": "07:30"
+      },
+      {
+        "dtstart": "20260416T120000Z",
+        "dtend": "20260416T140000Z",
+        "summary": "(Fiona & Jerry) LIVE SHOW with 米之廚",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/16",
+        "time": "12:00"
+      },
+      {
+        "dtstart": "20260427T080000Z",
+        "dtend": "20260427T100000Z",
+        "summary": "(Fiona & Jerry) meeting with Belle",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/27",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260430T010000Z",
+        "dtend": "20260430T040000Z",
+        "summary": "(Jerry) LIVE SHOW (清漉)",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/30",
+        "time": "01:00"
+      },
+      {
+        "dtstart": "20260420T063000Z",
+        "dtend": "20260420T083000Z",
+        "summary": "(Fiona & Jerry) Meeting with Dogalicious at 又一城",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/20",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260416T060000Z",
+        "dtend": "20260416T100000Z",
+        "summary": "(Fiona & Jerry) Meeting with Forza 10 at Tun Mun",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/16",
+        "time": "06:00"
+      }
+    ],
+    "Parco": [
+      {
+        "dtstart": "20260306T063000Z",
+        "dtend": "20260306T083000Z",
+        "summary": "(Suki Parco Joey ) Meeting with snow bear at Lai Chi Kok",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/06",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260121T070000Z",
+        "dtend": "20260121T090000Z",
+        "summary": "(Parco & Mark & Tony) Meeting H8386001",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/21",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260305T063000Z",
+        "dtend": "20260305T083000Z",
+        "summary": "(Parco Monie) Meeting with CELFULL",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/05",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260514T080000Z",
+        "dtend": "20260514T100000Z",
+        "summary": "(Jacqueline\\, Parco) Meet with Lego Pets",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/05/14",
+        "time": "08:00"
+      }
+    ],
+    "Simon": [
+      {
+        "dtstart": "20260107T083000Z",
+        "dtend": "20260107T100000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) Meeting with MUJI at TKO office",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/07",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260202T100000Z",
+        "dtend": "20260202T110000Z",
+        "summary": "(Fiona & Jerry & Simon Chan) Dinner with H6588001 輝煌",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/02/02",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260309T010000Z",
+        "dtend": "20260309T040000Z",
+        "summary": "(Simon Chan) Organic MAMA live show @KWUN TONG",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/03/09",
+        "time": "01:00"
+      },
+      {
+        "dtstart": "20260804T080000Z",
+        "dtend": "20260804T093000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) - Meeting with MUJI",
+        "location": "尖沙咀\\, 香港尖沙咀",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/08/04",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260225T040000Z",
+        "dtend": "20260225T063000Z",
+        "summary": "(Simon Chan & Pat) meeting with 食神 @mk",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/25",
+        "time": "04:00"
+      },
+      {
+        "dtstart": "20260105T020000Z",
+        "dtend": "20260105T023000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) MUJI pre meeting",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/05",
+        "time": "02:00"
+      },
+      {
+        "dtstart": "20260225T070000Z",
+        "dtend": "20260225T083000Z",
+        "summary": "(Pat\\, Simon Chan\\, Keith\\, Jeff) meeting with 10號店",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/25",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260112T070000Z",
+        "dtend": "20260112T090000Z",
+        "summary": "(Fiona & Jerry & Simon Chan &tinyiu) Meeting with S2818001 IPPIN/H5",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/12",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260424T080000Z",
+        "dtend": "20260424T100000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry) Meeting with 輝煌",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/24",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260603T083000Z",
+        "dtend": "20260603T103000Z",
+        "summary": "(Simon\\, Fiona\\, Suezette) Meeting Myicellar",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/03",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260422T070000Z",
+        "dtend": "20260422T083000Z",
+        "summary": "(Simon\\, Fiona\\, Suezette) Meeting with Best Life",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/22",
+        "time": "07:00"
+      }
+    ],
+    "Pat": [
+      {
+        "dtstart": "20260311T040000Z",
+        "dtend": "20260311T060000Z",
+        "summary": "(Pat\\, Amy\\, Monie) Meeting with AAP at The Lohas",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/11",
+        "time": "04:00"
+      },
+      {
+        "dtstart": "20260304T063000Z",
+        "dtend": "20260304T083000Z",
+        "summary": "(Pat\\, Candy\\, Monie\\, Amy) Meeting with Tycoon at TST",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/04",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260127T050000Z",
+        "dtend": "20260127T080000Z",
+        "summary": "(Pat\\, Amy) Lunch & meeting with All About Pet",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/27",
+        "time": "05:00"
+      },
+      {
+        "dtstart": "20260225T040000Z",
+        "dtend": "20260225T063000Z",
+        "summary": "(Simon Chan & Pat) meeting with 食神 @mk",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/25",
+        "time": "04:00"
+      },
+      {
+        "dtstart": "20260210T080000Z",
+        "dtend": "20260210T100000Z",
+        "summary": "(Pat\\, Winnie\\, Amy) Meeting with Decathlon",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/10",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260225T070000Z",
+        "dtend": "20260225T083000Z",
+        "summary": "(Pat\\, Simon Chan\\, Keith\\, Jeff) meeting with 10號店",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/25",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260408T070000Z",
+        "dtend": "20260408T083000Z",
+        "summary": "(Amy & Pat) Meeting with OB House at Kwun Tong",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/08",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260512T063000Z",
+        "dtend": "20260512T083000Z",
+        "summary": "(Pat & Tinyiu) Meeting with Wellness pet food",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/12",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260514T073000Z",
+        "dtend": "20260514T093000Z",
+        "summary": "(Amy\\, Pat\\, Tony) Meeting with Nirvana",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/14",
+        "time": "07:30"
+      },
+      {
+        "dtstart": "20260417T080000Z",
+        "dtend": "20260417T100000Z",
+        "summary": "(Amy & Pat) Meeting with ibn at Shatin",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/17",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260617T070000Z",
+        "dtend": "20260617T090000Z",
+        "summary": "(Pat\\, Amy) Meeting with ON",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/17",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260414T070000Z",
+        "dtend": "20260414T090000Z",
+        "summary": "(Amy & Pat) Meeting with Pet Servants at Tuen Mun",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/14",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260602T070000Z",
+        "dtend": "20260602T090000Z",
+        "summary": "(Amy\\, Pat\\, Monie) Meeting with Tycoon",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/02",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260610T063000Z",
+        "dtend": "20260610T083000Z",
+        "summary": "(Pat\\, Amy) Meeting with You and Me",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/10",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260601T070000Z",
+        "dtend": "20260601T090000Z",
+        "summary": "(Amy\\, Pat) Meeting with R store",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/01",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260408T083000Z",
+        "dtend": "20260408T100000Z",
+        "summary": "(Amy & Pat) Meeting with Trends Beauty at KLN bay",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/08",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260401T030000Z",
+        "dtend": "20260401T050000Z",
+        "summary": "(Amy & Pat) Meeting with DKSH at Wong Chuk Hang",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/01",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260610T030000Z",
+        "dtend": "20260610T050000Z",
+        "summary": "(Pat\\, Amy) Meeting with Living with Vanus",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/10",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260414T060000Z",
+        "dtend": "20260414T070000Z",
+        "summary": "(Amy & Pat) Meeting with Rucci at Tuen Mun",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/14",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260409T070000Z",
+        "dtend": "20260409T080000Z",
+        "summary": "(Amy & Pat) E-meeting with Bruno",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/09",
+        "time": "07:00"
+      }
+    ],
+    "Fiona": [
+      {
+        "dtstart": "20260130T070000Z",
+        "dtend": "20260130T120000Z",
+        "summary": "(cat & Jerry & Fiona) -HKTDC expo",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/30",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260205T063000Z",
+        "dtend": "20260205T083000Z",
+        "summary": "(Fiona & Jerry) Meeting with TAKAD at Ngau Tau Kok",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/05",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260317T053000Z",
+        "dtend": "20260317T080000Z",
+        "summary": "(Fiona & Suezett) Lunch meeting H5711001",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/17",
+        "time": "05:30"
+      },
+      {
+        "dtstart": "20260203T120000Z",
+        "dtend": "20260203T140000Z",
+        "summary": "(Fiona & Gary) 翠亨邨 KOF Live",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/02/03",
+        "time": "12:00"
+      },
+      {
+        "dtstart": "20260107T083000Z",
+        "dtend": "20260107T100000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) Meeting with MUJI at TKO office",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/07",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260206T040000Z",
+        "dtend": "20260206T050000Z",
+        "summary": "(Fiona & Suezette) Meeting H6924001",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/06",
+        "time": "04:00"
+      },
+      {
+        "dtstart": "20260202T100000Z",
+        "dtend": "20260202T110000Z",
+        "summary": "(Fiona & Jerry & Simon Chan) Dinner with H6588001 輝煌",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/02/02",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260227T073000Z",
+        "dtend": "20260227T090000Z",
+        "summary": "(Fiona Pipi Joshua) meeting with casa at TKO",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/27",
+        "time": "07:30"
+      },
+      {
+        "dtstart": "20260116T030000Z",
+        "dtend": "20260116T050000Z",
+        "summary": "(Jeff\\, Howard\\, Fiona\\, Cat) Meeting with Milan",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/16",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260126T070000Z",
+        "dtend": "20260126T090000Z",
+        "summary": "(Fiona\\, Gary\\, Candy\\, Suezette) meeting with H9084002",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/26",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260804T080000Z",
+        "dtend": "20260804T093000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) - Meeting with MUJI",
+        "location": "尖沙咀\\, 香港尖沙咀",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/08/04",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260206T073000Z",
+        "dtend": "20260206T090000Z",
+        "summary": "(Fiona & Suezette) Meeting H0972",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/06",
+        "time": "07:30"
+      },
+      {
+        "dtstart": "20260121T013000Z",
+        "dtend": "20260121T033000Z",
+        "summary": "(Fiona & Suezette) Meeting H8033002",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/21",
+        "time": "01:30"
+      },
+      {
+        "dtstart": "20260128T120000Z",
+        "dtend": "20260128T140000Z",
+        "summary": "(Fiona\\, Jerry\\, Alvis) - Muji Live Show",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/28",
+        "time": "12:00"
+      },
+      {
+        "dtstart": "20260121T060000Z",
+        "dtend": "20260121T073000Z",
+        "summary": "(Fiona\\, Alvis) - Meeting with H7912 @灣仔",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/21",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260113T063000Z",
+        "dtend": "20260113T083000Z",
+        "summary": "(Fiona & Jerry) Meeting with Nesture at TW",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/13",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260113T023000Z",
+        "dtend": "20260113T043000Z",
+        "summary": "(Fiona & Jerry) Meeting with Freya",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/13",
+        "time": "02:30"
+      },
+      {
+        "dtstart": "20260114T060000Z",
+        "dtend": "20260114T080000Z",
+        "summary": "(Fiona & Jerry & Howard & Zita) Meeting with PURE & HEALTHY B0231",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/14",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260210T080000Z",
+        "dtend": "20260210T100000Z",
+        "summary": "(Fiona\\, Gary\\, Suezette) meeting with 大昌行",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/10",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260123T070000Z",
+        "dtend": "20260123T090000Z",
+        "summary": "(Fiona & Jerry) Meeting with OSCAR",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/23",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260203T060000Z",
+        "dtend": "20260203T080000Z",
+        "summary": "(Fiona & Gary) meeting with Herbs’ Oil",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/03",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260310T023000Z",
+        "dtend": "20260310T043000Z",
+        "summary": "(Fiona & Jerry & Ayu & Ted & Vaniss) Meeting with Swashes & World s",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/10",
+        "time": "02:30"
+      },
+      {
+        "dtstart": "20260226T070000Z",
+        "dtend": "20260226T080000Z",
+        "summary": "(Fiona\\, Pipi) zoom meeting with H6168008",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/26",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260105T020000Z",
+        "dtend": "20260105T023000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry\\, Alvis) MUJI pre meeting",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/05",
+        "time": "02:00"
+      },
+      {
+        "dtstart": "20260226T113000Z",
+        "dtend": "20260226T133000Z",
+        "summary": "(Jeff Ricky Fiona Cat) Dinner with 貓犬工房",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/02/26",
+        "time": "11:30"
+      },
+      {
+        "dtstart": "20260213T063000Z",
+        "dtend": "20260213T073000Z",
+        "summary": "(Fiona\\, Gary\\, Pipi) meeting with 維昌集團",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/13",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260213T080000Z",
+        "dtend": "20260213T100000Z",
+        "summary": "(Fiona\\, Pipi) meeting with 紀文 at MK",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/13",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260120T063000Z",
+        "dtend": "20260120T073000Z",
+        "summary": "(Fiona & Suezette) Meeting H0602",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/20",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260119T030000Z",
+        "dtend": "20260119T040000Z",
+        "summary": "(Fiona\\, Pipi) e-meeting with medimart",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/19",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260305T063000Z",
+        "dtend": "20260305T093000Z",
+        "summary": "(Fiona & Jerry) Meeting with Timberland",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/05",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260128T080000Z",
+        "dtend": "20260128T100000Z",
+        "summary": "(Fiona\\, Alvis) Meeting with H0678 大囍慶",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/28",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260212T040000Z",
+        "dtend": "20260212T080000Z",
+        "summary": "(Fiona & Jerry) Lunch and Meeting in TKO with H7701",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/12",
+        "time": "04:00"
+      },
+      {
+        "dtstart": "20260205T023000Z",
+        "dtend": "20260205T043000Z",
+        "summary": "(Fiona & Jerry) Meeting with HOCK",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/05",
+        "time": "02:30"
+      },
+      {
+        "dtstart": "20260311T060000Z",
+        "dtend": "20260311T080000Z",
+        "summary": "(Fiona & Jerry) Meeting with Shiny Living",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/11",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260130T030000Z",
+        "dtend": "20260130T050000Z",
+        "summary": "(Jerry & Fiona) 爾雅家宴 LIVE SHOW",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/30",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260310T063000Z",
+        "dtend": "20260310T083000Z",
+        "summary": "(Fiona\\, Jerry\\, Cat) Meeting with Lifeclub",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/10",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260116T070000Z",
+        "dtend": "20260116T090000Z",
+        "summary": "(Fiona & Suezette) Meeting H5568001",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/16",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260206T030000Z",
+        "dtend": "20260206T040000Z",
+        "summary": "(Fiona & Suezette) Meeting H9770",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/06",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260119T070000Z",
+        "dtend": "20260119T080000Z",
+        "summary": "(fiona\\, pipi) e-meeting with dodome",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/19",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260112T070000Z",
+        "dtend": "20260112T090000Z",
+        "summary": "(Fiona & Jerry & Simon Chan &tinyiu) Meeting with S2818001 IPPIN/H5",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/12",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260505T020000Z",
+        "dtend": "20260505T050000Z",
+        "summary": "(Fiona & Jerry) 挑戰者 Live show",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/05/05",
+        "time": "02:00"
+      },
+      {
+        "dtstart": "20260520T080000Z",
+        "dtend": "20260520T100000Z",
+        "summary": "(Fiona & Jerry) Meeting with Manson at festival walk",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/20",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260529T100000Z",
+        "dtend": "20260529T120000Z",
+        "summary": "(Fiona & Jerry) Dinner meeting with Swashes",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/29",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260424T080000Z",
+        "dtend": "20260424T100000Z",
+        "summary": "(Simon\\, Fiona\\, Jerry) Meeting with 輝煌",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/24",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260605T060000Z",
+        "dtend": "20260605T090000Z",
+        "summary": "(Fiona & Jerry) meeting with B1100001",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/05",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260522T050000Z",
+        "dtend": "20260522T080000Z",
+        "summary": "(Fiona & Jerry) Lunch meeting with On kee",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/22",
+        "time": "05:00"
+      },
+      {
+        "dtstart": "20260527T060000Z",
+        "dtend": "20260527T083000Z",
+        "summary": "(Fiona & Suezette) Meeting H5931001",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/27",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260603T083000Z",
+        "dtend": "20260603T103000Z",
+        "summary": "(Simon\\, Fiona\\, Suezette) Meeting Myicellar",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/03",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260415T100000Z",
+        "dtend": "20260415T113000Z",
+        "summary": "(Pipi & fiona & Jerry) meeting with foodianna 米之廚 at kwai fong",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/15",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260422T070000Z",
+        "dtend": "20260422T083000Z",
+        "summary": "(Simon\\, Fiona\\, Suezette) Meeting with Best Life",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/22",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260401T063000Z",
+        "dtend": "20260401T083000Z",
+        "summary": "(Fiona & Jerry) Meeting with Glorious",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/01",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260513T070000Z",
+        "dtend": "20260513T090000Z",
+        "summary": "(Fiona & Gary) meeting Herbs' Oil",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/13",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260423T100000Z",
+        "dtend": "20260423T110000Z",
+        "summary": "(Fiona Pipi) meeting with kk life at TST",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/23",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260512T020000Z",
+        "dtend": "20260512T090000Z",
+        "summary": "(Fiona & Suezette) B1100001 Live Show + 美容展",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/05/12",
+        "time": "02:00"
+      },
+      {
+        "dtstart": "20260529T063000Z",
+        "dtend": "20260529T083000Z",
+        "summary": "(Fiona\\, Pipi) meeting with maze at yau tong",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/29",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260325T070000Z",
+        "dtend": "20260325T090000Z",
+        "summary": "(Fiona\\, Jerry\\, Ayu\\, Kylie) Meeting with Logitech",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/25",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260402T083000Z",
+        "dtend": "20260402T130000Z",
+        "summary": "(Fiona\\, Alvis) - Meeting & Dinner with H8976001",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/02",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260416T120000Z",
+        "dtend": "20260416T140000Z",
+        "summary": "(Fiona & Jerry) LIVE SHOW with 米之廚",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/16",
+        "time": "12:00"
+      },
+      {
+        "dtstart": "20260427T080000Z",
+        "dtend": "20260427T100000Z",
+        "summary": "(Fiona & Jerry) meeting with Belle",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/27",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260420T063000Z",
+        "dtend": "20260420T083000Z",
+        "summary": "(Fiona & Jerry) Meeting with Dogalicious at 又一城",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/20",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260611T053000Z",
+        "dtend": "20260611T080000Z",
+        "summary": "(Fiona\\, Cat\\, Gary\\, Pipi\\, Suezette) Lunch + Meeting H5096",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/11",
+        "time": "05:30"
+      },
+      {
+        "dtstart": "20260401T030000Z",
+        "dtend": "20260401T040000Z",
+        "summary": "(Pipi Fiona) Meeting with Geosang at TKO",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/01",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260416T060000Z",
+        "dtend": "20260416T100000Z",
+        "summary": "(Fiona & Jerry) Meeting with Forza 10 at Tun Mun",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/16",
+        "time": "06:00"
+      }
+    ],
+    "Cat": [
+      {
+        "dtstart": "20260130T070000Z",
+        "dtend": "20260130T120000Z",
+        "summary": "(cat & Jerry & Fiona) -HKTDC expo",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/01/30",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260116T030000Z",
+        "dtend": "20260116T050000Z",
+        "summary": "(Jeff\\, Howard\\, Fiona\\, Cat) Meeting with Milan",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/16",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260122T070000Z",
+        "dtend": "20260122T090000Z",
+        "summary": "(Cat & Gary) meeting with OLENS",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/22",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260226T113000Z",
+        "dtend": "20260226T133000Z",
+        "summary": "(Jeff Ricky Fiona Cat) Dinner with 貓犬工房",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/02/26",
+        "time": "11:30"
+      },
+      {
+        "dtstart": "20260310T063000Z",
+        "dtend": "20260310T083000Z",
+        "summary": "(Fiona\\, Jerry\\, Cat) Meeting with Lifeclub",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/10",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260611T053000Z",
+        "dtend": "20260611T080000Z",
+        "summary": "(Fiona\\, Cat\\, Gary\\, Pipi\\, Suezette) Lunch + Meeting H5096",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/11",
+        "time": "05:30"
+      }
+    ],
+    "Pipi": [
+      {
+        "dtstart": "20260226T023000Z",
+        "dtend": "20260226T033000Z",
+        "summary": "(Pipi\\, Joshua) e-meeting with new merchant",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/26",
+        "time": "02:30"
+      },
+      {
+        "dtstart": "20260102",
+        "dtend": "20260103",
+        "summary": "(Pipi) SL",
+        "location": "",
+        "is_allday": true,
+        "type": "other",
+        "date": "2026/01/02",
+        "time": "All Day"
+      },
+      {
+        "dtstart": "20260227T073000Z",
+        "dtend": "20260227T090000Z",
+        "summary": "(Fiona Pipi Joshua) meeting with casa at TKO",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/27",
+        "time": "07:30"
+      },
+      {
+        "dtstart": "20260225T020000Z",
+        "dtend": "20260225T053000Z",
+        "summary": "(Pipi) medimart live at KT",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/02/25",
+        "time": "02:00"
+      },
+      {
+        "dtstart": "20260305T043000Z",
+        "dtend": "20260305T063000Z",
+        "summary": "(Pipi) Meeting with konway at cwb",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/05",
+        "time": "04:30"
+      },
+      {
+        "dtstart": "20260226T083000Z",
+        "dtend": "20260226T093000Z",
+        "summary": "(Pipi) e meeting with new merchant",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/26",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260305T073000Z",
+        "dtend": "20260305T093000Z",
+        "summary": "(Pipi) meeting with 易樂 at LCK",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/05",
+        "time": "07:30"
+      },
+      {
+        "dtstart": "20260226T070000Z",
+        "dtend": "20260226T080000Z",
+        "summary": "(Fiona\\, Pipi) zoom meeting with H6168008",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/26",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260213T063000Z",
+        "dtend": "20260213T073000Z",
+        "summary": "(Fiona\\, Gary\\, Pipi) meeting with 維昌集團",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/13",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260213T080000Z",
+        "dtend": "20260213T100000Z",
+        "summary": "(Fiona\\, Pipi) meeting with 紀文 at MK",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/13",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260211T080000Z",
+        "dtend": "20260211T100000Z",
+        "summary": "(Pipi) meeting with GC mart at TKO",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/02/11",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260316T033000Z",
+        "dtend": "20260316T043000Z",
+        "summary": "(Pipi) E-meeting with new merchant",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/16",
+        "time": "03:30"
+      },
+      {
+        "dtstart": "20260119T030000Z",
+        "dtend": "20260119T040000Z",
+        "summary": "(Fiona\\, Pipi) e-meeting with medimart",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/19",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260119T070000Z",
+        "dtend": "20260119T080000Z",
+        "summary": "(fiona\\, pipi) e-meeting with dodome",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/19",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260519T080000Z",
+        "dtend": "20260519T090000Z",
+        "summary": "(Pipi) e-meeting with geosang",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/19",
+        "time": "08:00"
+      },
+      {
+        "dtstart": "20260604T090000Z",
+        "dtend": "20260604T110000Z",
+        "summary": "(Pipi) meeting with H7445002 at KT",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/04",
+        "time": "09:00"
+      },
+      {
+        "dtstart": "20260430T030000Z",
+        "dtend": "20260430T060000Z",
+        "summary": "(Pipi) medimart live show at KT",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/30",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260415T100000Z",
+        "dtend": "20260415T113000Z",
+        "summary": "(Pipi & fiona & Jerry) meeting with foodianna 米之廚 at kwai fong",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/15",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260408T070000Z",
+        "dtend": "20260408T080000Z",
+        "summary": "(Pipi) E-meeting with watabe",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/08",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260513T070000Z",
+        "dtend": "20260513T103000Z",
+        "summary": "(Pipi) HKTDC International Medical and Healthcare Fair at wanchai",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/05/13",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260427T060000Z",
+        "dtend": "20260427T090000Z",
+        "summary": "(Pipi) HKTDC Gifts & Premium Fair – Kotra Korea Pavilion at wan cha",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/27",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260421T060000Z",
+        "dtend": "20260421T080000Z",
+        "summary": "(Pipi Kylie E-meeting with geosang)",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/21",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260423T100000Z",
+        "dtend": "20260423T110000Z",
+        "summary": "(Fiona Pipi) meeting with kk life at TST",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/23",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260430T030000Z",
+        "dtend": "20260430T060000Z",
+        "summary": "(Pipi) Medimart Live Show at KT",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/30",
+        "time": "03:00"
+      },
+      {
+        "dtstart": "20260526",
+        "dtend": "20260527",
+        "summary": "(Pipi) FCL",
+        "location": "",
+        "is_allday": true,
+        "type": "other",
+        "date": "2026/05/26",
+        "time": "All Day"
+      },
+      {
+        "dtstart": "20260529T063000Z",
+        "dtend": "20260529T083000Z",
+        "summary": "(Fiona\\, Pipi) meeting with maze at yau tong",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/29",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260430T070000Z",
+        "dtend": "20260430T100000Z",
+        "summary": "(Pipi) Home Instyle\\, Fashion Instyle fair in waichai",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/30",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260319T070000Z",
+        "dtend": "20260319T080000Z",
+        "summary": "(Pipi) E-meeting with new merchant",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/19",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260424T060000Z",
+        "dtend": "20260424T090000Z",
+        "summary": "(Pipi) Medimart Live show at KT",
+        "location": "",
+        "is_allday": false,
+        "type": "other",
+        "date": "2026/04/24",
+        "time": "06:00"
+      },
+      {
+        "dtstart": "20260414T083000Z",
+        "dtend": "20260414T103000Z",
+        "summary": "(Pipi) meeting with new merchant at MK",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/14",
+        "time": "08:30"
+      },
+      {
+        "dtstart": "20260515T033000Z",
+        "dtend": "20260515T043000Z",
+        "summary": "(Pipi) E-meeting with new merchant",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/05/15",
+        "time": "03:30"
+      },
+      {
+        "dtstart": "20260318T100000Z",
+        "dtend": "20260318T130000Z",
+        "summary": "(Pipi) meeting with 長明國際at 石門",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/18",
+        "time": "10:00"
+      },
+      {
+        "dtstart": "20260611T053000Z",
+        "dtend": "20260611T080000Z",
+        "summary": "(Fiona\\, Cat\\, Gary\\, Pipi\\, Suezette) Lunch + Meeting H5096",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/06/11",
+        "time": "05:30"
+      },
+      {
+        "dtstart": "20260401T030000Z",
+        "dtend": "20260401T040000Z",
+        "summary": "(Pipi Fiona) Meeting with Geosang at TKO",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/04/01",
+        "time": "03:00"
+      }
+    ],
+    "Candy": [
+      {
+        "dtstart": "20260304T063000Z",
+        "dtend": "20260304T083000Z",
+        "summary": "(Pat\\, Candy\\, Monie\\, Amy) Meeting with Tycoon at TST",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/03/04",
+        "time": "06:30"
+      },
+      {
+        "dtstart": "20260126T070000Z",
+        "dtend": "20260126T090000Z",
+        "summary": "(Fiona\\, Gary\\, Candy\\, Suezette) meeting with H9084002",
+        "location": "",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/26",
+        "time": "07:00"
+      },
+      {
+        "dtstart": "20260108T060000Z",
+        "dtend": "20260108T080000Z",
+        "summary": "(Gary & Candy) meeting with Friend Store",
+        "location": "九龍灣",
+        "is_allday": false,
+        "type": "meeting",
+        "date": "2026/01/08",
+        "time": "06:00"
+      }
+    ]
+  },
+  "total_events": 1072
+}
