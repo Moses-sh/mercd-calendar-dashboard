@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERCD Team Calendar Dashboard</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f1419; color: #e7e7e7; min-height: 100vh; }
+        
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px 30px; }
+        .header h1 { font-size: 1.8em; margin-bottom: 5px; }
+        .header p { opacity: 0.9; }
+        
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        
+        /* Team Selector */
+        .team-selector { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 25px; }
+        .team-chip { padding: 10px 20px; background: #1e2832; border: 2px solid #333; border-radius: 25px; cursor: pointer; transition: all 0.3s; font-weight: 500; }
+        .team-chip:hover { border-color: #667eea; transform: translateY(-2px); }
+        .team-chip.active { background: #667eea; border-color: #667eea; color: #fff; }
+        
+        /* Stats Cards */
+        .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 25px; }
+        .stat-card { background: #1e2832; border-radius: 12px; padding: 20px; text-align: center; }
+        .stat-card .num { font-size: 2.2em; font-weight: bold; color: #667eea; }
+        .stat-card .label { color: #888; margin-top: 5px; font-size: 0.85em; }
+        .stat-card.meetings .num { color: #2ecc71; }
+        .stat-card.al .num { color: #e74c3c; }
+        .stat-card.sl .num { color: #f39c12; }
+        
+        /* View Tabs */
+        .tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+        .tab { padding: 10px 20px; background: #1e2832; border: none; border-radius: 8px; color: #888; cursor: pointer; transition: all 0.2s; }
+        .tab:hover { background: #2a3640; color: #fff; }
+        .tab.active { background: #667eea; color: #fff; }
+        
+        /* Filter */
+        .filters { display: flex; gap: 10px; margin-bottom: 20px; align-items: center; flex-wrap: wrap; }
+        .filter-btn { padding: 8px 16px; background: #1e2832; border: none; border-radius: 20px; color: #888; cursor: pointer; font-size: 0.9em; }
+        .filter-btn:hover, .filter-btn.active { background: #667eea; color: #fff; }
+        .date-nav { display: flex; gap: 10px; align-items: center; }
+        .date-nav button { padding: 8px 15px; background: #1e2832; border: none; border-radius: 8px; color: #fff; cursor: pointer; }
+        .date-nav button:hover { background: #2a3640; }
+        .current-period { font-size: 1.2em; font-weight: bold; color: #667eea; min-width: 200px; text-align: center; }
+        
+        /* Event List */
+        .events-container { background: #1e2832; border-radius: 12px; padding: 20px; }
+        .event-item { background: #0f1419; padding: 15px; margin-bottom: 10px; border-radius: 8px; border-left: 4px solid #667eea; }
+        .event-item:hover { background: #151c24; }
+        .event-item.meeting { border-left-color: #2ecc71; }
+        .event-item.al { border-left-color: #e74c3c; }
+        .event-item.sl { border-left-color: #f39c12; }
+        .event-item.trip { border-left-color: #3498db; }
+        
+        .event-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .event-date { color: #667eea; font-weight: bold; }
+        .event-time { color: #888; font-size: 0.9em; }
+        .event-summary { font-size: 1.1em; margin-bottom: 5px; }
+        .event-location { color: #666; font-size: 0.85em; }
+        
+        .tag { display: inline-block; padding: 3px 10px; border-radius: 15px; font-size: 0.75em; margin-left: 10px; }
+        .tag-meeting { background: rgba(46,204,113,0.2); color: #2ecc71; }
+        .tag-al { background: rgba(231,76,60,0.2); color: #e74c3c; }
+        .tag-sl { background: rgba(243,156,18,0.2); color: #f39c12; }
+        
+        .no-events { text-align: center; padding: 40px; color: #666; font-size: 1.1em; }
+        
+        /* Month Grid */
+        .month-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; }
+        .month-card { background: #0f1419; border-radius: 10px; padding: 15px; }
+        .month-card h4 { color: #667eea; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #333; }
+        .month-event { padding: 8px 0; border-bottom: 1px solid #1e2832; }
+        .month-event:last-child { border-bottom: none; }
+        .month-event-date { color: #888; font-size: 0.85em; }
+        .month-event-title { font-size: 0.95em; }
+        
+        /* Week Grid */
+        .week-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+        .week-card { background: #0f1419; border-radius: 10px; padding: 15px; }
+        .week-card h4 { color: #667eea; margin-bottom: 10px; }
+        .week-event { padding: 6px 0; font-size: 0.9em; }
+        .week-event-date { color: #888; margin-right: 8px; }
+        
+        /* Search */
+        .search-box { width: 100%; max-width: 400px; padding: 12px 15px; background: #1e2832; border: 1px solid #333; border-radius: 8px; color: #fff; font-size: 1em; margin-bottom: 20px; }
+        .search-box:focus { outline: none; border-color: #667eea; }
+        
+        .panel { display: none; }
+        .panel.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📅 MERCD Team Calendar Dashboard</h1>
+        <p>2026 Team Meeting & Leave Schedule</p>
+    </div>
+    
+    <div class="container">
+        <!-- Team Selector -->
+        <div class="team-selector" id="teamSelector"></div>
+        
+        <!-- Stats -->
+        <div class="stats-row" id="statsRow">
+            <div class="stat-card"><div class="num" id="statTotal">-</div><div class="label">Total Events</div></div>
+            <div class="stat-card meetings"><div class="num" id="statMeetings">-</div><div class="label">Meetings</div></div>
+            <div class="stat-card al"><div class="num" id="statAL">-</div><div class="label">Annual Leave</div></div>
+            <div class="stat-card sl"><div class="num" id="statSL">-</div><div class="label">Sick Leave</div></div>
+        </div>
+        
+        <!-- View Tabs -->
+        <div class="tabs">
+            <button class="tab active" onclick="showView('day')">📅 By Day</button>
+            <button class="tab" onclick="showView('week')">📆 By Week</button>
+            <button class="tab" onclick="showView('month')">📊 By Month</button>
+            <button class="tab" onclick="showView('search')">🔍 Search</button>
+        </div>
+        
+        <!-- Day View -->
+        <div class="panel active" id="panel-day">
+            <div class="filters">
+                <div class="date-nav">
+                    <button onclick="changePeriod(-1)">◀ Prev</button>
+                    <span class="current-period" id="currentPeriod">June 2026</span>
+                    <button onclick="changePeriod(1)">Next ▶</button>
+                </div>
+                <button class="filter-btn" onclick="setTypeFilter('all')">All</button>
+                <button class="filter-btn" onclick="setTypeFilter('meeting')">Meetings</button>
+                <button class="filter-btn" onclick="setTypeFilter('al')">AL</button>
+                <button class="filter-btn" onclick="setTypeFilter('sl')">SL</button>
+            </div>
+            <div class="events-container" id="dayEvents"></div>
+        </div>
+        
+        <!-- Week View -->
+        <div class="panel" id="panel-week">
+            <div class="filters">
+                <div class="date-nav">
+                    <button onclick="changeWeek(-1)">◀ Prev</button>
+                    <span class="current-period" id="currentWeek">Week 23, 2026</span>
+                    <button onclick="changeWeek(1)">Next ▶</button>
+                </div>
+            </div>
+            <div class="week-grid" id="weekEvents"></div>
+        </div>
+        
+        <!-- Month View -->
+        <div class="panel" id="panel-month">
+            <div class="filters">
+                <div class="date-nav">
+                    <button onclick="changeYear(-1)">◀ Prev</button>
+                    <span class="current-period" id="currentYear">2026</span>
+                    <button onclick="changeYear(1)">Next ▶</button>
+                </div>
+            </div>
+            <div class="month-grid" id="monthEvents"></div>
+        </div>
+        
+        <!-- Search View -->
+        <div class="panel" id="panel-search">
+            <input type="text" class="search-box" id="searchInput" placeholder="Search by merchant name, person, or keyword..." onkeyup="performSearch()">
+            <div class="events-container" id="searchResults"></div>
+        </div>
+    </div>
+    
+    <script>
+        let calendarData = null;
+        let currentTeam = 'Jerry';
+        let currentPeriod = { year: 2026, month: 6 };
+        let currentWeek = { year: 2026, week: 24 };
+        let typeFilter = 'all';
+        
+        // Month names
+        const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('team-calendar-data.json');
+                calendarData = await response.json();
+                initTeamSelector();
+                selectTeam('Jerry');
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+        
+        function initTeamSelector() {
+            const selector = document.getElementById('teamSelector');
+            const members = Object.keys(calendarData.summary);
+            members.forEach(member => {
+                const chip = document.createElement('div');
+                chip.className = 'team-chip' + (member === currentTeam ? ' active' : '');
+                chip.textContent = member;
+                chip.onclick = () => selectTeam(member);
+                selector.appendChild(chip);
+            });
+        }
+        
+        function selectTeam(team) {
+            currentTeam = team;
+            document.querySelectorAll('.team-chip').forEach(c => c.classList.remove('active'));
+            // Find and activate the correct chip
+            const chips = document.querySelectorAll('.team-chip');
+            chips.forEach(c => {
+                if (c.textContent === team) c.classList.add('active');
+            });
+            updateStats();
+            renderDayView();
+        }
+        
+        function updateStats() {
+            const stats = calendarData.summary[currentTeam] || { total: 0, meetings: 0, al: 0, sl: 0 };
+            document.getElementById('statTotal').textContent = stats.total;
+            document.getElementById('statMeetings').textContent = stats.meetings;
+            document.getElementById('statAL').textContent = stats.al;
+            document.getElementById('statSL').textContent = stats.sl;
+        }
+        
+        function showView(view) {
+            document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.getElementById('panel-' + view).classList.add('active');
+            if (event && event.target) event.target.classList.add('active');
+            
+            if (view === 'day') renderDayView();
+            else if (view === 'week') renderWeekView();
+            else if (view === 'month') renderMonthView();
+        }
+        
+        function setTypeFilter(type) {
+            typeFilter = type;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            if (event && event.target) event.target.classList.add('active');
+            renderDayView();
+        }
+        
+        function filterEvents(events) {
+            if (typeFilter === 'all') return events;
+            return events.filter(e => e.type === typeFilter);
+        }
+        
+        function getTeamEvents() {
+            return calendarData.team_data[currentTeam] || [];
+        }
+        
+        function renderDayView() {
+            const events = getTeamEvents();
+            const filtered = filterEvents(events);
+            
+            // Group by month
+            const byMonth = {};
+            filtered.forEach(e => {
+                const key = e.date.substring(0, 7);
+                if (!byMonth[key]) byMonth[key] = [];
+                byMonth[key].push(e);
+            });
+            
+            const monthKey = `${currentPeriod.year}/${String(currentPeriod.month).padStart(2, '0')}`;
+            const monthEvents = byMonth[monthKey] || [];
+            
+            document.getElementById('currentPeriod').textContent = `${months[currentPeriod.month - 1]} ${currentPeriod.year}`;
+            
+            if (monthEvents.length === 0) {
+                document.getElementById('dayEvents').innerHTML = '<div class="no-events">No events this month</div>';
+                return;
+            }
+            
+            // Sort by date
+            monthEvents.sort((a, b) => a.date + a.time > b.date + b.time ? 1 : -1);
+            
+            let html = '';
+            monthEvents.forEach(e => {
+                const tag = e.type === 'meeting' ? '<span class="tag tag-meeting">Meeting</span>' :
+                           e.type === 'al' ? '<span class="tag tag-al">AL</span>' :
+                           e.type === 'sl' ? '<span class="tag tag-sl">SL</span>' : '';
+                html += `<div class="event-item ${e.type}">
+                    <div class="event-header">
+                        <span class="event-date">${e.date}</span>
+                        <span class="event-time">${e.time}</span>
+                    </div>
+                    <div class="event-summary">${e.summary} ${tag}</div>
+                    ${e.location ? `<div class="event-location">📍 ${e.location}</div>` : ''}
+                </div>`;
+            });
+            
+            document.getElementById('dayEvents').innerHTML = html;
+        }
+        
+        function changePeriod(delta) {
+            currentPeriod.month += delta;
+            if (currentPeriod.month > 12) { currentPeriod.month = 1; currentPeriod.year++; }
+            if (currentPeriod.month < 1) { currentPeriod.month = 12; currentPeriod.year--; }
+            renderDayView();
+        }
+        
+        function renderWeekView() {
+            const events = getTeamEvents();
+            
+            // Get ISO week dates
+            const jan4 = new Date(currentWeek.year, 0, 4);
+            const weekStart = new Date(jan4.getTime() + (currentWeek.week - 1) * 7 * 24 * 60 * 60 * 1000);
+            weekStart.setDate(weekStart.getDate() - weekStart.getDay() + 1);
+            
+            document.getElementById('currentWeek').textContent = `Week ${currentWeek.week}, ${currentWeek.year}`;
+            
+            let html = '<div class="week-grid">';
+            for (let i = 0; i < 7; i++) {
+                const day = new Date(weekStart.getTime() + i * 24 * 60 * 60 * 1000);
+                const dayStr = day.getFullYear() + '/' + String(day.getMonth() + 1).padStart(2, '0') + '/' + String(day.getDate()).padStart(2, '0');
+                const dayEvents = events.filter(e => e.date === dayStr);
+                const dayNames = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+                
+                html += `<div class="week-card">
+                    <h4>${dayNames[i]} ${day.getDate()}</h4>`;
+                if (dayEvents.length === 0) {
+                    html += '<div style="color:#666;font-size:0.85em;">No events</div>';
+                } else {
+                    dayEvents.forEach(e => {
+                        html += `<div class="week-event">
+                            <span class="week-event-date">${e.time}</span>
+                            ${e.summary.substring(0, 30)}${e.summary.length > 30 ? '...' : ''}
+                        </div>`;
+                    });
+                }
+                html += '</div>';
+            }
+            html += '</div>';
+            document.getElementById('weekEvents').innerHTML = html;
+        }
+        
+        function changeWeek(delta) {
+            currentWeek.week += delta;
+            if (currentWeek.week > 52) { currentWeek.week = 1; currentWeek.year++; }
+            if (currentWeek.week < 1) { currentWeek.week = 52; currentWeek.year--; }
+            renderWeekView();
+        }
+        
+        function renderMonthView() {
+            const events = getTeamEvents();
+            
+            document.getElementById('currentYear').textContent = currentPeriod.year;
+            
+            // Group by month
+            const byMonth = {};
+            events.forEach(e => {
+                const monthKey = e.date.substring(0, 7);
+                if (!byMonth[monthKey]) byMonth[monthKey] = [];
+                byMonth[monthKey].push(e);
+            });
+            
+            let html = '<div class="month-grid">';
+            for (let m = 1; m <= 12; m++) {
+                const monthKey = `${currentPeriod.year}/${String(m).padStart(2, '0')}`;
+                const monthEvents = byMonth[monthKey] || [];
+                
+                html += `<div class="month-card">
+                    <h4>${months[m - 1]} (${monthEvents.length})</h4>`;
+                
+                if (monthEvents.length === 0) {
+                    html += '<div style="color:#666;font-size:0.85em;">No events</div>';
+                } else {
+                    // Show first 5 events
+                    monthEvents.slice(0, 5).forEach(e => {
+                        html += `<div class="month-event">
+                            <div class="month-event-date">${e.date} ${e.time}</div>
+                            <div class="month-event-title">${e.summary.substring(0, 40)}${e.summary.length > 40 ? '...' : ''}</div>
+                        </div>`;
+                    });
+                    if (monthEvents.length > 5) {
+                        html += `<div style="color:#667eea;font-size:0.85em;padding-top:8px;">+ ${monthEvents.length - 5} more</div>`;
+                    }
+                }
+                html += '</div>';
+            }
+            html += '</div>';
+            document.getElementById('monthEvents').innerHTML = html;
+        }
+        
+        function changeYear(delta) {
+            currentPeriod.year += delta;
+            renderMonthView();
+        }
+        
+        function performSearch() {
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            if (!query) {
+                document.getElementById('searchResults').innerHTML = '';
+                return;
+            }
+            
+            const events = getTeamEvents();
+            const results = events.filter(e => 
+                e.summary.toLowerCase().includes(query) || 
+                (e.location && e.location.toLowerCase().includes(query))
+            );
+            
+            if (results.length === 0) {
+                document.getElementById('searchResults').innerHTML = '<div class="no-events">No results found</div>';
+                return;
+            }
+            
+            let html = `<div style="margin-bottom:15px;color:#888;">${results.length} results</div>`;
+            results.forEach(e => {
+                const tag = e.type === 'meeting' ? '<span class="tag tag-meeting">Meeting</span>' :
+                           e.type === 'al' ? '<span class="tag tag-al">AL</span>' :
+                           e.type === 'sl' ? '<span class="tag tag-sl">SL</span>' : '';
+                html += `<div class="event-item ${e.type}">
+                    <div class="event-header">
+                        <span class="event-date">${e.date}</span>
+                        <span class="event-time">${e.time}</span>
+                    </div>
+                    <div class="event-summary">${e.summary} ${tag}</div>
+                    ${e.location ? `<div class="event-location">📍 ${e.location}</div>` : ''}
+                </div>`;
+            });
+            
+            document.getElementById('searchResults').innerHTML = html;
+        }
+        
+        // Init
+        loadData();
+    </script>
+</body>
+</html>
